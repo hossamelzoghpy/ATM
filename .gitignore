@@ -1,0 +1,14 @@
+# Ignore IDE settings
+.idea/
+*.iml
+*.class
+
+# Ignore Maven target directory
+/target/
+/Readme Images/
+
+# Ignore SQLite database 
+*.db
+
+# Ignore logs
+*.log

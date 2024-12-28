@@ -1,0 +1,190 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9 Nov, 2022, 8:26:36 PM
+    Author     : vivek
+*/
+
+
+/* Main : #871F42
+ Secondary : #A54A6F
+ Font : #97144D*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap');
+*{
+    box-sizing: border-box;
+}
+body {
+   margin:0;
+   padding:0;
+   height:100vh;
+   font-family:'Inter',sans-serif;
+   background:#dee2e6;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   flex-direction:column;
+   gap:20px;
+}
+form {
+   padding:30px 50px;
+   border:6px solid #6B7280;
+   border-radius:10px;
+   background:#1F2937;
+   color:#4ADF86;
+   margin:auto;
+   width:450px;
+   height:430px;
+   display:flex;
+   gap:40px;
+   justify-content:center;
+   flex-direction:column;
+   align-items:center;
+}
+input {
+   width:300px;
+   height:40px;
+   background:#273549;
+   border-radius:6px;
+   letter-spacing:1px;
+   color:#55F991;
+   font-family:"karla";
+   font-style:normal;
+   font-size:20px;
+   line-height:110px;
+   text-align:center;
+   border:none;
+   outline:none;
+}
+input[type="number"]::-webkit-outer-spin-button,input[type="number"]::-webkit-inner-spin-button {
+   -webkit-appearance:none;
+   margin:0;
+}
+a {
+   color:#fff;
+   text-decoration:none;
+}
+a:hover,a:active {
+   color:#FFFFFF;
+}
+.bd-form {
+   padding:30px 50px;
+   font-size:22px;
+   height:auto;
+   gap:10px;
+}
+.bd-form >button {
+   margin-top:20px;
+}
+.register div .card-text {
+   margin:5px 0;
+}
+button,.btn-text {
+   display:block;
+   width:120px;
+   height:42px;
+   background:#10B981;
+   box-shadow:0px 1px 2px rgba(0,0,0,0.05);
+   border-radius:6px;
+   font-family:'karla';
+   font-style:normal;
+   font-weight:500;
+   color:#FFFFFF;
+   border:none;
+   margin-top:30px;
+}
+.btn-text {
+   font-size:13px;
+   text-align:center;
+   line-height:42px;
+   vertical-align:middle;
+}
+.link-page {
+   color:black;
+}
+.link-page:hover,.link-page:active {
+   color:#55F991;
+}
+.card-text {
+   font-family:'Karla';
+   font-style:normal;
+   font-weight:800;
+   font-size:40px;
+   line-height:40px;
+   letter-spacing:-0.025em;
+   color:#fff;
+   margin:8px 0px 10px 0px;
+}
+.btn {
+   padding:10px 20px;
+   text-align:center;
+}
+.header-text-randpass {
+   color:#4ADF86;
+   margin-bottom:25px;
+}
+.row {
+   display:flex;
+   justify-content:flex-start;
+   gap:20px;
+}
+.model {
+   padding:25px 50px;
+   border:6px solid #6B7280;
+   border-radius:10px;
+   background:#1F2937;
+   color:#4ADF86;
+   width:470px;
+   height:auto;
+   display:flex;
+   gap:5px;
+   justify-content:center;
+   flex-direction:column;
+   align-items:center;
+}
+.align-left {
+   align-items:flex-start;
+}
+.main-menu {
+   border:1px solid black;
+   background:#5e002e;
+   padding:10px 20px;
+   border-radius:8px;
+}
+.text-md {
+   font-size:30px;
+   margin:10px 0px;
+}
+.text-sm {
+   margin:0;
+   font-size:26px;
+}
+.col {
+   display:flex;
+   flex-direction:column;
+   gap:20px;
+}
+#register-form {
+   padding:10px 30px;
+   margin:0;
+}
+table {
+   border:5px solid #6B7280;
+   border-radius:8px;
+   color:#FFFFFF;
+   font-family:'Karla';
+   font-weight:400;
+   border-collapse:collapse;
+}
+tr:nth-child(1) td {
+   background:#10B981;
+}
+td {
+   padding:10px 20px;
+   background:#273549;
+   margin:0;
+   border-style:hidden!important;
+}
